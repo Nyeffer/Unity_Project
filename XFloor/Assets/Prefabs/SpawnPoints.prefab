@@ -312,7 +312,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6174433b625a7984c82bd0eb5a7ead52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform: {fileID: 1571654017718782, guid: bf5d0074db0be64439a5ea73c0026b8b, type: 2}
+  platform_FlatGrass: {fileID: 1571654017718782, guid: bf5d0074db0be64439a5ea73c0026b8b,
+    type: 2}
+  platform_SlopeGrass: {fileID: 1781563909187262, guid: 1fe3fd7ed1442504b8e5884a0ed7a391,
+    type: 2}
   platform_0: {fileID: 4246475038907400}
   platform_N1: {fileID: 4183318642828238}
   platform_P1: {fileID: 4848849695744810}
@@ -322,7 +325,3 @@ MonoBehaviour:
   platform_P3: {fileID: 4036613355269680}
   platform_N4: {fileID: 4536316796380426}
   platform_P4: {fileID: 4116346328861164}
-  horizontalMin: 2.5
-  horizontalMax: 5
-  verticalMin: -3
-  verticalMax: 3

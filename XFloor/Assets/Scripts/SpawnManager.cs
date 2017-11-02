@@ -3,7 +3,9 @@ using System.Collections;
 
 public class SpawnManager : MonoBehaviour
 {
-    public GameObject platform;
+    private GameObject platform;
+    public GameObject platform_FlatGrass;
+    public GameObject platform_SlopeGrass;
     public Transform platform_0;
     public Transform platform_N1;
     public Transform platform_P1;
@@ -17,6 +19,17 @@ public class SpawnManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        int rand = Random.Range(1,3);
+        switch(rand) {
+            case 1:
+                platform = platform_FlatGrass;
+                break;
+            case 2: 
+                platform = platform_SlopeGrass;
+                break;
+            default:
+                break;
+        }
         Spawn();
     }
     void Spawn()
