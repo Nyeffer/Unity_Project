@@ -20,9 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4082420302343066}
   - component: {fileID: 65276375399037108}
+  - component: {fileID: 114827541806379848}
   m_Layer: 0
   m_Name: Grass_SlopeStart_R_Block
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,3 +123,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.0514727, y: 1.0875473, z: 3.9824104}
   m_Center: {x: -0.027016163, y: 3.519764, z: -0.007004738}
+--- !u!114 &114827541806379848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1104656122705570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 809debbcfafbf3243a7b72ad514c50c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myTag: Ground

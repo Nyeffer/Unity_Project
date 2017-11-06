@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-guid: 8649af559fd27254395ae849d9178840
-timeCreated: 1509548345
+guid: 9a390ba5fbcd904419bb0b08cdd03cca
+timeCreated: 1509757511
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Player_walk_0
-    21300002: Player_walk_1
+    21300000: Sword_Iron_0
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -77,27 +76,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_walk_0
+      name: Sword_Iron_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 348
-        height: 590
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Player_walk_1
-      rect:
-        serializedVersion: 2
-        x: 348
-        y: 0
-        width: 348
-        height: 590
+        x: 176
+        y: 32
+        width: 272
+        height: 608
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

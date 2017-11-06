@@ -37,9 +37,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4660335854569802}
   - component: {fileID: 65546152712613754}
+  - component: {fileID: 114410925115711082}
   m_Layer: 0
   m_Name: Grass_Upper_Block_1_100
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122,3 +123,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 39.770767, y: 5.1302195, z: 40.247803}
   m_Center: {x: -0.6124592, y: 37.147835, z: 0.08140564}
+--- !u!114 &114410925115711082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1823811749491078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 809debbcfafbf3243a7b72ad514c50c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myTag: Ground

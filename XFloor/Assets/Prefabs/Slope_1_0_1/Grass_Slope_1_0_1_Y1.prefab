@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4197606332614854}
   m_Layer: 0
   m_Name: Grass_Slope_1_0_1_Y1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 65117957171315624}
   m_Layer: 0
   m_Name: Grass_SlopeCorner_L_Block
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: 65586249109673034}
   m_Layer: 0
   m_Name: Grass_SlopeCorner_R_Block (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 65116253751996286}
   m_Layer: 0
   m_Name: Grass_SlopeCorner_L_Block (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -153,7 +153,7 @@ GameObject:
   - component: {fileID: 65347551100882416}
   m_Layer: 0
   m_Name: Grass_SlopeCorner_R_Block
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
