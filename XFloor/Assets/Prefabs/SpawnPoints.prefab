@@ -80,6 +80,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4513560810683538}
   - component: {fileID: 114689247937878308}
+  - component: {fileID: 114345724724008596}
   m_Layer: 0
   m_Name: SpawnPoints
   m_TagString: Untagged
@@ -301,6 +302,31 @@ Transform:
   m_Father: {fileID: 4513560810683538}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114345724724008596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1583894958678028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6174433b625a7984c82bd0eb5a7ead52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  platform:
+  - {fileID: 1571654017718782, guid: bf5d0074db0be64439a5ea73c0026b8b, type: 2}
+  - {fileID: 1781563909187262, guid: 1fe3fd7ed1442504b8e5884a0ed7a391, type: 2}
+  - {fileID: 1699824840321808, guid: e4e795644da6dab488f2a3d61cf22281, type: 2}
+  spawnPoints:
+  - {fileID: 4246475038907400}
+  - {fileID: 4183318642828238}
+  - {fileID: 4848849695744810}
+  - {fileID: 4246382997604862}
+  - {fileID: 4296849986835932}
+  - {fileID: 4492204568386460}
+  - {fileID: 4036613355269680}
+  - {fileID: 4536316796380426}
+  - {fileID: 4116346328861164}
 --- !u!114 &114689247937878308
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -312,16 +338,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6174433b625a7984c82bd0eb5a7ead52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platform_FlatGrass: {fileID: 1571654017718782, guid: bf5d0074db0be64439a5ea73c0026b8b,
-    type: 2}
-  platform_SlopeGrass: {fileID: 1781563909187262, guid: 1fe3fd7ed1442504b8e5884a0ed7a391,
-    type: 2}
-  platform_0: {fileID: 4246475038907400}
-  platform_N1: {fileID: 4183318642828238}
-  platform_P1: {fileID: 4848849695744810}
-  platform_N2: {fileID: 4246382997604862}
-  platform_P2: {fileID: 4296849986835932}
-  platform_N3: {fileID: 4492204568386460}
-  platform_P3: {fileID: 4036613355269680}
-  platform_N4: {fileID: 4536316796380426}
-  platform_P4: {fileID: 4116346328861164}
+  platform: []
+  spawnPoints: []

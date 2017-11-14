@@ -133,6 +133,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4292236019255320}
+  - component: {fileID: 65724412053789200}
   m_Layer: 0
   m_Name: Soil_Normal_Block_1_100
   m_TagString: Ground
@@ -462,6 +463,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.077117, y: 1.09828, z: 4.127739}
   m_Center: {x: -0.00003862381, y: 3.5216742, z: -0.03381443}
+--- !u!65 &65724412053789200
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1876211758234978}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 40.335766, y: 6.877656, z: 41.062294}
+  m_Center: {x: -0.52769184, y: 36.54267, z: -1.0465956}
 --- !u!65 &65766178011387828
 BoxCollider:
   m_ObjectHideFlags: 1

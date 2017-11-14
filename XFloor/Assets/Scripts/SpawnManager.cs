@@ -22,7 +22,7 @@ public class SpawnManager : MonoBehaviour
     {
         for (int i = 0; i < spawnPoints.Length; i++)
         {
-            int rand = Random.Range(1, 4);
+            int rand = Random.Range(1, platform.Length + 1);
             PickAPlatform(i, rand);
         }
     }
@@ -39,6 +39,9 @@ public class SpawnManager : MonoBehaviour
                 break;
             case 3:
                 Instantiate(platform[2], spawnPoints[i].position, Quaternion.identity);
+                break;
+            case 4:
+                Instantiate(platform[3], spawnPoints[i].position, Quaternion.identity);
                 break;
         }
     }

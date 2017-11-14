@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Boundary
+  - Limit
+  - End
   layers:
   - Default
   - TransparentFX
