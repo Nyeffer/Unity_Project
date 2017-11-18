@@ -9,6 +9,7 @@ TagManager:
   - Boundary
   - Limit
   - End
+  - Fire
   layers:
   - Default
   - TransparentFX

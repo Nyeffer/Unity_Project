@@ -48,6 +48,11 @@ public class Player_Detection_AI : MonoBehaviour {
 		  isSeeking = true;
 		  anim.SetBool("Walk", true);
 		}
+
+		if(location.gameObject.tag == "Fire") {
+			Destroy(location.gameObject);
+			Destroy(this.gameObject);
+		}
 	}
 
 	void OnTriggerExit(Collider location) {

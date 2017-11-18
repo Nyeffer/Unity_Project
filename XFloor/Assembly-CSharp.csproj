@@ -54,8 +54,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BackgroundMove.cs" />
      <Compile Include="Assets\Scripts\Boss_Atks.cs" />
+     <Compile Include="Assets\Scripts\ChangeScene.cs" />
      <Compile Include="Assets\Scripts\Dig.cs" />
+     <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Player_Detection_AI.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
 
@@ -14,6 +15,7 @@ public class Player : MonoBehaviour {
 
 	public bool isDig;
 	public bool m_isDead = false;
+	public bool is_walking;
 
 
 	private bool m_onGround = true;
@@ -37,6 +39,7 @@ public class Player : MonoBehaviour {
 		m_isDead = false;
 		isAtk = false;
 		isDig = false;
+		is_walking = false;
 		groundCheck.SetActive(false);
 		frontCheck.SetActive(false);
 		SetMaxhealth(100);
@@ -52,9 +55,11 @@ public class Player : MonoBehaviour {
 		if(cur_health <= 0) {
 			m_isDead = true;
 		} 
+		is_walking = false;
 		Vector3 pos = gameObject.transform.position;
 		// Player Move Left and Right
 		if(Input.GetAxis("Horizontal") != 0 && !isAtk && !isDig) {
+			is_walking = true;
 			pos.x += Input.GetAxis("Horizontal") * m_moveSpeed * Time.deltaTime;
 			gameObject.transform.position = pos;
 			if(Input.GetAxis("Horizontal") > 0 && !facingRight && !isAtk) {
@@ -186,6 +191,9 @@ public class Player : MonoBehaviour {
 			Vector3 pos = gameObject.transform.position;
 			pos.y *= -1;
 			gameObject.transform.position = pos;
+		}
+		if(other.gameObject.tag == "End") {
+			SceneManager.LoadScene("Main", LoadSceneMode.Single);
 		}
 	}
 
